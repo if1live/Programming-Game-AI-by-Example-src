@@ -6,7 +6,7 @@
 #include "MinersWife.h"
 #include "EntityManager.h"
 #include "MessageDispatcher.h"
-#include "misc/ConsoleUtils.h"
+#include "..\..\Common\misc\ConsoleUtils.h"
 #include "EntityNames.h"
 
 

@@ -15,11 +15,11 @@
 
 #include "BaseGameEntity.h"
 #include "Locations.h"
-#include "misc/ConsoleUtils.h"
+#include "..\..\Common\misc\ConsoleUtils.h"
 #include "MinerOwnedStates.h"
-#include "fsm/StateMachine.h"
+#include "..\..\Common\FSM\StateMachine.h"
 
-class State;
+//class State; //error C2990: 'State' : non-class template has already been declared as a class template
 struct Telegram;
 
 //the amount of gold a miner must have before he feels he can go home
