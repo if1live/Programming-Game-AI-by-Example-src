@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Buckland_Chapter2-State Machines", "Buckland_Chapter2-State Machines", "{F434B9B0-A2E1-4D9C-99C0-8EDD7C1EE8CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Buckland_Chapter3-Steering Behaviors", "Buckland_Chapter3-Steering Behaviors", "{818E2BF2-A7F4-449E-B9EE-C9633179A028}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Buckland_Chapter4-SimpleSoccer", "Buckland_Chapter4-SimpleSoccer", "{44CEA7AB-1E0B-49B9-A54E-E89B8CDE59D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Buckland_Chapter5-Pathfinder", "Buckland_Chapter5-Pathfinder", "{D5D3BF36-9E5E-4342-A209-CB07B8F01273}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Buckland_Chapter6_Scripting_Source", "Buckland_Chapter6_Scripting_Source", "{3E9C09CB-226E-4553-BA67-36D4A61CD023}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Buckland_Chapter7 to 10_Raven", "Buckland_Chapter7 to 10_Raven", "{C5C883AD-C9F0-4DF2-8ECE-76B0383F532D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WestWorld1", "Buckland_Chapter2-State Machines\WestWorld1\WestWorld1.vcxproj", "{801E6C0B-E5F1-4028-81EF-174CCC80F192}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{801E6C0B-E5F1-4028-81EF-174CCC80F192}.Debug|Win32.ActiveCfg = Debug|Win32
+		{801E6C0B-E5F1-4028-81EF-174CCC80F192}.Debug|Win32.Build.0 = Debug|Win32
+		{801E6C0B-E5F1-4028-81EF-174CCC80F192}.Release|Win32.ActiveCfg = Release|Win32
+		{801E6C0B-E5F1-4028-81EF-174CCC80F192}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{801E6C0B-E5F1-4028-81EF-174CCC80F192} = {F434B9B0-A2E1-4D9C-99C0-8EDD7C1EE8CA}
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Test_Project.vsmdi
+	EndGlobalSection
+EndGlobal
