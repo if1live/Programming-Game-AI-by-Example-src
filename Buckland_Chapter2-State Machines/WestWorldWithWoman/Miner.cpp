@@ -1,5 +1,5 @@
 #include "Miner.h"
-#include "misc/ConsoleUtils.h"
+#include "..\..\common\misc\ConsoleUtils.h"
 
 
 //-----------------------------------------------------------------------------

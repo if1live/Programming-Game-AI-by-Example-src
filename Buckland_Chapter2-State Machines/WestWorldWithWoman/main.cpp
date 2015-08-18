@@ -2,7 +2,7 @@
 #include "Locations.h"
 #include "Miner.h"
 #include "MinersWife.h"
-#include "misc/ConsoleUtils.h"
+#include "..\..\common\misc\ConsoleUtils.h"
 #include "EntityNames.h"
 
 

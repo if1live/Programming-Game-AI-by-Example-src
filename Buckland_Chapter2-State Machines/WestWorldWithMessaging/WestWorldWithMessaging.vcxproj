@@ -35,8 +35,6 @@
     <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
     <OutDir>bin\$(Configuration)\$(Platform)\</OutDir>
     <IntDir>obj\$(Configuration)\$(Platform)\</IntDir>
-    <IncludePath>$(SolutionDir)Common;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
-    <SourcePath>$(SolutionDir)Common;$(VC_SourcePath);</SourcePath>
     <LinkIncremental>false</LinkIncremental>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
     <CodeAnalysisRules />

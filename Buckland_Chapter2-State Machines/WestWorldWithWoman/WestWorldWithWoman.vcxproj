@@ -35,8 +35,6 @@
     <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
     <OutDir>bin\$(Configuration)\$(Platform)\</OutDir>
     <IntDir>obj\$(Configuration)\$(Platform)\</IntDir>
-    <IncludePath>$(SolutionDir)Common;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
-    <SourcePath>$(SolutionDir)Common;$(VC_SourcePath);</SourcePath>
     <LinkIncremental>false</LinkIncremental>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
     <CodeAnalysisRules />
@@ -79,6 +77,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="BaseGameEntity.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Miner.cpp" />
@@ -87,6 +87,10 @@
     <ClCompile Include="MinersWifeOwnedStates.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Common\FSM\State.h" />
+    <ClInclude Include="..\..\Common\FSM\StateMachine.h" />
+    <ClInclude Include="..\..\Common\misc\ConsoleUtils.h" />
+    <ClInclude Include="..\..\Common\misc\utils.h" />
     <ClInclude Include="BaseGameEntity.h" />
     <ClInclude Include="EntityNames.h" />
     <ClInclude Include="Locations.h" />
@@ -94,8 +98,6 @@
     <ClInclude Include="MinerOwnedStates.h" />
     <ClInclude Include="MinersWife.h" />
     <ClInclude Include="MinersWifeOwnedStates.h" />
-    <ClInclude Include="State.h" />
-    <ClInclude Include="StateMachine.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />

@@ -9,7 +9,7 @@
 //  Author: Mat Buckland 2002 (fup@ai-junkie.com)
 //
 //------------------------------------------------------------------------
-#include "..\..\Common\fsm\State.h"
+#include "..\..\common\fsm\State.h"
 
 class MinersWife;
 

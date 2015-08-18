@@ -7,10 +7,10 @@
 #include "BaseGameEntity.h"
 #include "Locations.h"
 #include "MinersWifeOwnedStates.h"
-#include "misc/ConsoleUtils.h"
+#include "..\..\common\misc\ConsoleUtils.h"
 #include "Miner.h"
 #include "StateMachine.h"
-#include "misc/Utils.h"
+#include "..\..\common\misc\Utils.h"
 
 
 

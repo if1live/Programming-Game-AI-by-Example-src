@@ -15,7 +15,6 @@
 #include <string>
 
 #include "State.h"
-#include "..\..\Common\Messaging\Telegram.h"
 
 
 template <class entity_type>

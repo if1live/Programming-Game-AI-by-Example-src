@@ -15,9 +15,9 @@
 
 #include "BaseGameEntity.h"
 #include "Locations.h"
-#include "..\..\Common\misc\ConsoleUtils.h"
+#include "..\..\common\misc\ConsoleUtils.h"
 #include "MinerOwnedStates.h"
-#include "..\..\Common\FSM\StateMachine.h"
+#include "..\..\common\fsm\StateMachine.h"
 
 //class State; //error C2990: 'State' : non-class template has already been declared as a class template
 struct Telegram;
