@@ -17,7 +17,7 @@
 #include "MinerOwnedStates.h"
 #include "StateMachine.h"
 
-class State;
+//class State; // error C2990: 'State' : non-class template has already been declared as a class template
 
 //the amount of gold a miner must have before he feels comfortable
 const int ComfortLevel       = 5;
