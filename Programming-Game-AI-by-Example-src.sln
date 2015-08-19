@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lua_using_cpp", "Buckland_C
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CreatingClassesUsingLuabind", "Buckland_Chapter6_Scripting_Source\CreatingClassesUsingLuabind\CreatingClassesUsingLuabind.vcxproj", "{DFC3F004-08A2-42F5-BBDE-D81A96ABC31C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExposingCPPClassesUsingLuabind", "Buckland_Chapter6_Scripting_Source\ExposingCPPClassesUsingLuabind\ExposingCPPClassesUsingLuabind.vcxproj", "{4A021179-8DCD-4AF8-9958-0F29A510CF5F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -102,6 +104,12 @@ Global
 		{DFC3F004-08A2-42F5-BBDE-D81A96ABC31C}.Release|Win32.Build.0 = Release|Win32
 		{DFC3F004-08A2-42F5-BBDE-D81A96ABC31C}.Template|Win32.ActiveCfg = Release|Win32
 		{DFC3F004-08A2-42F5-BBDE-D81A96ABC31C}.Template|Win32.Build.0 = Release|Win32
+		{4A021179-8DCD-4AF8-9958-0F29A510CF5F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4A021179-8DCD-4AF8-9958-0F29A510CF5F}.Debug|Win32.Build.0 = Debug|Win32
+		{4A021179-8DCD-4AF8-9958-0F29A510CF5F}.Release|Win32.ActiveCfg = Release|Win32
+		{4A021179-8DCD-4AF8-9958-0F29A510CF5F}.Release|Win32.Build.0 = Release|Win32
+		{4A021179-8DCD-4AF8-9958-0F29A510CF5F}.Template|Win32.ActiveCfg = Release|Win32
+		{4A021179-8DCD-4AF8-9958-0F29A510CF5F}.Template|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -117,6 +125,7 @@ Global
 		{68C3F893-F7AB-40D0-8B3E-E20066367D2A} = {3E9C09CB-226E-4553-BA67-36D4A61CD023}
 		{BED89669-175B-42C9-8EFD-3F2B4C3F8AD0} = {3E9C09CB-226E-4553-BA67-36D4A61CD023}
 		{DFC3F004-08A2-42F5-BBDE-D81A96ABC31C} = {3E9C09CB-226E-4553-BA67-36D4A61CD023}
+		{4A021179-8DCD-4AF8-9958-0F29A510CF5F} = {3E9C09CB-226E-4553-BA67-36D4A61CD023}
 	EndGlobalSection
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = Test_Project.vsmdi
