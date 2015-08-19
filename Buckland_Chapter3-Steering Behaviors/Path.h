@@ -13,7 +13,7 @@
 #include <list>
 #include <cassert>
 
-#include "2d/Vector2D.h"
+#include "2d\Vector2D.h"
 
 
 
@@ -33,7 +33,7 @@ private:
 
 public:
   
-  Path():m_bLooped(false), curWaypoint(NULL){}
+	Path() :m_bLooped(false), curWaypoint(){}
 
   //constructor for creating a path with initial random waypoints. MinX/Y
   //& MaxX/Y define the bounding box of the path.
@@ -51,7 +51,7 @@ public:
 
 
   //returns the current waypoint
-  Vector2D    CurrentWaypoint()const{assert(curWaypoint != NULL); return *curWaypoint;}
+  Vector2D    CurrentWaypoint()const{return *curWaypoint;}
 
   //returns true if the end of the list has been reached
   bool        Finished(){return !(curWaypoint != m_WayPoints.end());}

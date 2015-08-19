@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WestWorldWithMessaging", "B
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WestWorldWithWoman", "Buckland_Chapter2-State Machines\WestWorldWithWoman\WestWorldWithWoman.vcxproj", "{B9886C42-CD2B-447D-BDE5-15656B8625B1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Steering", "Buckland_Chapter3-Steering Behaviors\Steering.vcxproj", "{85E45450-F9B0-4330-8DB5-323A4F8ADCF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -70,6 +72,18 @@ Global
 		{B9886C42-CD2B-447D-BDE5-15656B8625B1}.Template|Win32.ActiveCfg = Release|Win32
 		{B9886C42-CD2B-447D-BDE5-15656B8625B1}.Template|Win32.Build.0 = Release|Win32
 		{B9886C42-CD2B-447D-BDE5-15656B8625B1}.Template|x64.ActiveCfg = Release|Win32
+		{85E45450-F9B0-4330-8DB5-323A4F8ADCF7}.Debug|ARM.ActiveCfg = Debug|Win32
+		{85E45450-F9B0-4330-8DB5-323A4F8ADCF7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{85E45450-F9B0-4330-8DB5-323A4F8ADCF7}.Debug|Win32.Build.0 = Debug|Win32
+		{85E45450-F9B0-4330-8DB5-323A4F8ADCF7}.Debug|x64.ActiveCfg = Debug|Win32
+		{85E45450-F9B0-4330-8DB5-323A4F8ADCF7}.Release|ARM.ActiveCfg = Release|Win32
+		{85E45450-F9B0-4330-8DB5-323A4F8ADCF7}.Release|Win32.ActiveCfg = Release|Win32
+		{85E45450-F9B0-4330-8DB5-323A4F8ADCF7}.Release|Win32.Build.0 = Release|Win32
+		{85E45450-F9B0-4330-8DB5-323A4F8ADCF7}.Release|x64.ActiveCfg = Release|Win32
+		{85E45450-F9B0-4330-8DB5-323A4F8ADCF7}.Template|ARM.ActiveCfg = Template|Win32
+		{85E45450-F9B0-4330-8DB5-323A4F8ADCF7}.Template|Win32.ActiveCfg = Template|Win32
+		{85E45450-F9B0-4330-8DB5-323A4F8ADCF7}.Template|Win32.Build.0 = Template|Win32
+		{85E45450-F9B0-4330-8DB5-323A4F8ADCF7}.Template|x64.ActiveCfg = Template|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,6 +92,7 @@ Global
 		{801E6C0B-E5F1-4028-81EF-174CCC80F192} = {F434B9B0-A2E1-4D9C-99C0-8EDD7C1EE8CA}
 		{33FC51A0-0404-4DF8-A70F-8026FFE91590} = {F434B9B0-A2E1-4D9C-99C0-8EDD7C1EE8CA}
 		{B9886C42-CD2B-447D-BDE5-15656B8625B1} = {F434B9B0-A2E1-4D9C-99C0-8EDD7C1EE8CA}
+		{85E45450-F9B0-4330-8DB5-323A4F8ADCF7} = {818E2BF2-A7F4-449E-B9EE-C9633179A028}
 	EndGlobalSection
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = Test_Project.vsmdi

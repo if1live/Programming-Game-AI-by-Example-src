@@ -1,11 +1,11 @@
 #include "MinerOwnedStates.h"
-#include "..\..\common\fsm\State.h"
+#include "fsm\State.h"
 #include "Miner.h"
 #include "Locations.h"
-#include "..\..\common\messaging\Telegram.h"
+#include "messaging\Telegram.h"
 #include "MessageDispatcher.h"
 #include "MessageTypes.h"
-#include "..\..\common\time\CrudeTimer.h"
+#include "time\CrudeTimer.h"
 #include "EntityNames.h"
 
 #include <iostream>

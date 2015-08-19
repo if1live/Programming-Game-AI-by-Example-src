@@ -12,14 +12,14 @@
 
 #include <string>
 
-#include "..\..\common\fsm\State.h"
+#include "fsm\State.h"
 #include "BaseGameEntity.h"
 #include "Locations.h"
 #include "MinersWifeOwnedStates.h"
-#include "..\..\common\misc\ConsoleUtils.h"
+#include "misc\ConsoleUtils.h"
 #include "Miner.h"
-#include "..\..\common\fsm\StateMachine.h"
-#include "..\..\common\misc\Utils.h"
+#include "fsm\StateMachine.h"
+#include "misc\Utils.h"
 
 
 

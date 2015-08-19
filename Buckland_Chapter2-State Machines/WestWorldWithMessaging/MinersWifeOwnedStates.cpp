@@ -2,7 +2,7 @@
 #include "MinerOwnedStates.h"
 #include "MinersWife.h"
 #include "Locations.h"
-#include "..\..\common\time\CrudeTimer.h"
+#include "time\CrudeTimer.h"
 #include "MessageDispatcher.h"
 #include "MessageTypes.h"
 #include "EntityNames.h"

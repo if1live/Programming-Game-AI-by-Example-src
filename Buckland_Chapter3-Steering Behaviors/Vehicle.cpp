@@ -1,11 +1,11 @@
 #include "Vehicle.h"
-#include "2d/C2DMatrix.h"
-#include "2d/Geometry.h"
+#include "2d\C2DMatrix.h"
+#include "2d\Geometry.h"
 #include "SteeringBehaviors.h"
-#include "2d/Transformations.h"
+#include "2d\Transformations.h"
 #include "GameWorld.h"
-#include "misc/CellSpacePartition.h"
-#include "misc/cgdi.h"
+#include "misc\CellSpacePartition.h"
+#include "misc\cgdi.h"
 
 using std::vector;
 using std::list;

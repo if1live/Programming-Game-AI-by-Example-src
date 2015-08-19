@@ -22,9 +22,9 @@
 #include <list>
 #include <cassert>
 
-#include "2d/Vector2D.h"
-#include "2d/InvertedAABBox2D.h"
-#include "misc/utils.h"
+#include "2d\Vector2D.h"
+#include "2d\InvertedAABBox2D.h"
+#include "misc\utils.h"
 
 
 
@@ -226,7 +226,7 @@ void CellSpacePartition<entity>::EmptyCells()
 template<class entity>
 inline int CellSpacePartition<entity>::PositionToIndex(const Vector2D& pos)const
 {
-  int idx = (int)(m_iNumCellsX * pos.x / m_dSpaceWidth) + 
+  unsigned int idx = (int)(m_iNumCellsX * pos.x / m_dSpaceWidth) + 
             ((int)((m_iNumCellsY) * pos.y / m_dSpaceHeight) * m_iNumCellsX);
 
   //if the entity's position is equal to vector2d(m_dSpaceWidth, m_dSpaceHeight)

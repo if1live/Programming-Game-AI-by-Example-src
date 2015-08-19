@@ -4,20 +4,20 @@
 #include <time.h>
 
 #include "constants.h"
-#include "misc/utils.h"
-#include "time/PrecisionTimer.h"
+#include "misc\utils.h"
+#include "time\PrecisionTimer.h"
 #include "GameWorld.h"
-#include "misc/Cgdi.h"
+#include "misc\Cgdi.h"
 #include "ParamLoader.h"
 #include "resource.h"
-#include "misc/WindowUtils.h"
+#include "misc\WindowUtils.h"
 
 //--------------------------------- Globals ------------------------------
 //
 //------------------------------------------------------------------------
 
 char* g_szApplicationName = "Steering Behaviors - Another Big Shoal";
-char*	g_szWindowClassName = "MyWindowClass";
+char* g_szWindowClassName = "MyWindowClass";
 
 GameWorld* g_GameWorld;
 
@@ -230,7 +230,7 @@ int WINAPI WinMain (HINSTANCE hInstance,
   //register the window class
   if (!RegisterClassEx(&winclass))
   {
-    MessageBox(NULL, "Registration Failed!", "Error", 0);
+	  MessageBox(NULL, "Registration Failed!", "Error", 0);
 
     //exit the application
     return 0;

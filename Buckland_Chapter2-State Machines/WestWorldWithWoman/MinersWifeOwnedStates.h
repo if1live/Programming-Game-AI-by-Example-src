@@ -9,7 +9,7 @@
 //  Author: Mat Buckland 2002 (fup@ai-junkie.com)
 //
 //------------------------------------------------------------------------
-#include "State.h"
+#include "fsm\State.h"
 
 class MinersWife;
 
@@ -36,6 +36,8 @@ public:
   virtual void Execute(MinersWife* wife);
 
   virtual void Exit(MinersWife* wife){}
+
+  virtual bool OnMessage(MinersWife*, const Telegram&){ return false; }
 };
 
 
@@ -64,6 +66,8 @@ public:
 
   virtual void Exit(MinersWife* wife);
 
+  virtual bool OnMessage(MinersWife*, const Telegram&){ return false; }
+
 };
 
 
@@ -91,6 +95,8 @@ public:
   virtual void Execute(MinersWife* wife);
 
   virtual void Exit(MinersWife* wife);
+
+  virtual bool OnMessage(MinersWife*, const Telegram&){ return false; }
 
 };
 

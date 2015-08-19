@@ -1,6 +1,6 @@
 #include "MessageDispatcher.h"
 #include "BaseGameEntity.h"
-#include "..\..\common\time\CrudeTimer.h"
+#include "time\CrudeTimer.h"
 #include "EntityManager.h"
 #include "Locations.h"
 #include "MessageTypes.h"

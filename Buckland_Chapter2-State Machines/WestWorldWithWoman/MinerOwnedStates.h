@@ -9,7 +9,7 @@
 //  Author: Mat Buckland 2002 (fup@ai-junkie.com)
 //
 //------------------------------------------------------------------------
-#include "State.h"
+#include "fsm\State.h"
 
 
 class Miner;
@@ -45,6 +45,8 @@ public:
 
   virtual void Exit(Miner* miner);
 
+  virtual bool OnMessage(Miner*, const Telegram&){ return false; }
+
 };
 
 //------------------------------------------------------------------------
@@ -72,6 +74,8 @@ public:
   virtual void Execute(Miner* miner);
 
   virtual void Exit(Miner* miner);
+
+  virtual bool OnMessage(Miner*, const Telegram&){ return false; }
 };
 
 
@@ -99,6 +103,8 @@ public:
   virtual void Execute(Miner* miner);
 
   virtual void Exit(Miner* miner);
+
+  virtual bool OnMessage(Miner*, const Telegram&){ return false; }
 };
 
 
@@ -124,6 +130,8 @@ public:
   virtual void Execute(Miner* miner);
 
   virtual void Exit(Miner* miner);
+
+  virtual bool OnMessage(Miner*, const Telegram&){ return false; }
 };
 
 

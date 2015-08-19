@@ -33,8 +33,8 @@ inline std::string ttos(const T& t, int precision = 2)
 //-----------------------------------------------------------------------------
 inline std::string btos(bool b)
 {
-  if (b) return "true";
-  return "false";
+	if (b) return "true";
+	return "false";
 }
 
 //--------------------------- GetValueFromStream ------------------------------

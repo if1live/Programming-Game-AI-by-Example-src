@@ -2,7 +2,7 @@
 #include "State.h"
 #include "Miner.h"
 #include "Locations.h"
-#include "..\..\common\misc\ConsoleUtils.h"
+#include "misc\ConsoleUtils.h"
 #include "EntityNames.h"
 
 #include <iostream>

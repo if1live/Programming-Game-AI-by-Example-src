@@ -1,4 +1,4 @@
-#include "misc/iniFileLoaderBase.h"
+#include "misc\iniFileLoaderBase.h"
 using std::string;
 
 
@@ -54,7 +54,7 @@ void iniFileLoaderBase::GetParameterValueAsString(string& line)
   string::size_type endIdx;
 
   //define some delimiters
-  const string delims(" \;=,");
+  const string delims(" \\;=,");
 
   begIdx = line.find_first_not_of(delims);
 
@@ -106,7 +106,7 @@ std::string iniFileLoaderBase::GetNextToken()
   string::size_type endIdx;
 
   //define some delimiters
-  const string delims(" \;=,");
+  const string delims(" \\;=,");
 
   begIdx = CurrentLine.find_first_not_of(delims);
 

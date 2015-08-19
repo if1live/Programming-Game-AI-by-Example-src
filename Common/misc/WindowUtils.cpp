@@ -67,7 +67,7 @@ void ErrorBox(std::string& msg)
 
 void ErrorBox(char* msg)
 {
-  MessageBox(NULL, msg, "Error", MB_OK);
+	MessageBox(NULL, msg, "Error", MB_OK);
 }
 
 //gets the coordinates of the cursor relative to an active window 
@@ -105,8 +105,7 @@ void FileInitialize (HWND hwnd,
                      const std::string& defaultFileTypeDescription,
                      const std::string& defaultFileExtension)
 {
-  std::string filter = defaultFileTypeDescription + '\0' + "*." + defaultFileExtension + '\0' +
-                       "All Files (*.*)" + '\0' + "*.*" + '\0' + '\0';
+	std::string filter = defaultFileTypeDescription + '\0' + "*." + defaultFileExtension + '\0' + "All Files (*.*)" + '\0' + "*.*" + '\0' + '\0';
   
    static TCHAR szFilter[255];
 

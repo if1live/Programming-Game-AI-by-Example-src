@@ -12,9 +12,9 @@
 //------------------------------------------------------------------------
 #include <vector>
 #include <string>
-#include "2D/Vector2D.h"
-#include "2D/Geometry.h"
-#include "misc/Utils.h"
+#include "2D\Vector2D.h"
+#include "2D\Geometry.h"
+#include "misc\utils.h"
 
 struct Telegram;
 

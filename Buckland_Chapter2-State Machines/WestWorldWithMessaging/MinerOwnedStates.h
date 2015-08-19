@@ -10,7 +10,7 @@
 //  Author: Mat Buckland 2002 (fup@ai-junkie.com)
 //
 //------------------------------------------------------------------------
-#include "..\..\common\fsm\State.h"
+#include "fsm\State.h"
 
 
 class Miner;

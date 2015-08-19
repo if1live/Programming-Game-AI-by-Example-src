@@ -11,7 +11,7 @@
 //------------------------------------------------------------------------
 #include <string>
 
-#include "..\..\common\messaging\Telegram.h"
+#include "messaging\Telegram.h"
 
 
 class BaseGameEntity
