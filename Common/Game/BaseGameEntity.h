@@ -14,9 +14,9 @@
 #include <vector>
 #include <string>
 #include <iosfwd>
-#include "2D/Vector2D.h"
-#include "2D/Geometry.h"
-#include "misc/utils.h"
+#include "2D\Vector2D.h"
+#include "2D\Geometry.h"
+#include "misc\utils.h"
 
 
 

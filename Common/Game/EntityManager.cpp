@@ -1,5 +1,5 @@
-#include "game/EntityManager.h"
-#include "game/BaseGameEntity.h"
+#include "game\EntityManager.h"
+#include "game\BaseGameEntity.h"
 
 
 //--------------------------- Instance ----------------------------------------

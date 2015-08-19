@@ -14,8 +14,8 @@
 //
 //------------------------------------------------------------------------
 #include "SoccerBall.h"
-#include "2D/Vector2D.h"
-#include "2D/geometry.h"
+#include "2D\Vector2D.h"
+#include "2D\geometry.h"
 
 
 

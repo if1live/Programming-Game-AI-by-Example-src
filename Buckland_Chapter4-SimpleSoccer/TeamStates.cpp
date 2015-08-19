@@ -1,14 +1,14 @@
 #include "TeamStates.h"
 #include "SoccerTeam.h"
 #include "PlayerBase.h"
-#include "Messaging/MessageDispatcher.h"
+#include "Messaging\MessageDispatcher.h"
 #include "SoccerMessages.h"
 #include "constants.h"
 #include "SoccerPitch.h"
 
 //uncomment to send state info to debug window
 //#define DEBUG_TEAM_STATES
-#include "Debug/DebugConsole.h"
+#include "Debug\DebugConsole.h"
 
 
 

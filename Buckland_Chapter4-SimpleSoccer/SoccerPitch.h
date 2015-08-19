@@ -17,8 +17,8 @@
 #include <vector>
 #include <cassert>
 
-#include "2D/Wall2D.h"
-#include "2D/Vector2D.h"
+#include "2D\Wall2D.h"
+#include "2D\Vector2D.h"
 #include "constants.h"
 
 class Region;

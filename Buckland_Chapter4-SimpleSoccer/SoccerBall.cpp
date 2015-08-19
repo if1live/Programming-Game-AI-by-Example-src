@@ -1,9 +1,9 @@
 #include "SoccerBall.h"
-#include "2D/geometry.h"
-#include "Debug/DebugConsole.h"
-#include "misc/Cgdi.h"
+#include "2D\geometry.h"
+#include "Debug\DebugConsole.h"
+#include "misc\Cgdi.h"
 #include "ParamLoader.h"
-#include "2D/Wall2D.h"
+#include "2D\Wall2D.h"
 
 
 //----------------------------- AddNoiseToKick --------------------------------

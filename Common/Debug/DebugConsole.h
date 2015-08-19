@@ -22,8 +22,8 @@
 #include <iosfwd>
 #include <fstream>
 
-#include "misc/utils.h"
-#include "misc/WindowUtils.h"
+#include "misc\utils.h"
+#include "misc\WindowUtils.h"
 
 
 //need to define a custom message
