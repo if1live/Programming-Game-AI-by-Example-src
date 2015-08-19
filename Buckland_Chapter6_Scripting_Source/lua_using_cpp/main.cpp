@@ -10,10 +10,10 @@ extern "C"
 
 #include <iostream>
 #include <string>
-using namespace std;
 
 #include "LuaHelperFunctions.h"
 #include "RockPaperScissors.h"
+#include "misc\ConsoleUtils.h"
 
 
 
@@ -35,7 +35,10 @@ int main()
   //tidy up
   lua_close(pL);
 
-  cout << "\n\n\n";
+  std::cout << "\n\n\n";
+
+  //wait for a keypress before exiting
+  PressAnyKeyToContinue();
     
   return 0;
 }

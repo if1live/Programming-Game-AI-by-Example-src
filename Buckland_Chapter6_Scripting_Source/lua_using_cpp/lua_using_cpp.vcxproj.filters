@@ -15,6 +15,9 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Common\lua-5.0\src\LuaHelperFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -26,8 +29,11 @@
     <ClInclude Include="..\..\Common\misc\ConsoleUtils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="RockPaperScissors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="cpp_using_lua.lua" />
+    <CustomBuild Include="Rock_Paper_Scissors_Using_C++_Funcs.lua" />
   </ItemGroup>
 </Project>

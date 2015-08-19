@@ -11,10 +11,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{68C3F893-F7AB-40D0-8B3E-E20066367D2A}</ProjectGuid>
-    <RootNamespace>StartHere</RootNamespace>
+    <ProjectGuid>{BED89669-175B-42C9-8EFD-3F2B4C3F8AD0}</ProjectGuid>
+    <RootNamespace>lua_using_cpp</RootNamespace>
     <Keyword>Win32Proj</Keyword>
-    <ProjectName>StartHere</ProjectName>
+    <ProjectName>lua_using_cpp</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Label="Configuration">
@@ -84,13 +84,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Common\lua-5.0\src\LuaHelperFunctions.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Common\lua-5.0\include\LuaHelperFunctions.h" />
     <ClInclude Include="..\..\Common\misc\ConsoleUtils.h" />
+    <ClInclude Include="RockPaperScissors.h" />
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="your_first_lua_script.lua" />
+    <CustomBuild Include="Rock_Paper_Scissors_Using_C++_Funcs.lua" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />

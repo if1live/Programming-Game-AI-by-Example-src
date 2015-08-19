@@ -10,9 +10,9 @@ extern "C"
 
 #include <iostream>
 #include <string>
-using namespace std;
 
 #include "LuaHelperFunctions.h"
+#include "misc\ConsoleUtils.h"
 
 
 
@@ -26,7 +26,7 @@ int main()
   
   RunLuaScript(pL, "cpp_using_lua.lua");
  
-  cout << "\n[C++]:  1. Assigning lua string and number types to C++ std::string & int types\n";
+  std::cout << "\n[C++]:  1. Assigning lua string and number types to C++ std::string & int types\n";
   
   //reset the stack index
   lua_settop(pL, 0);
@@ -39,23 +39,22 @@ int main()
   //stack index starts at 1, not 0)
   if (!lua_isnumber(pL, 1) || !lua_isstring(pL, 2))
   {
-    cout << "\n[C++]: ERROR: Invalid type!";
+	  std::cout << "\n[C++]: ERROR: Invalid type!";
   }
 
   //now assign the values to C++ variables
-  string name = lua_tostring(pL, 2);
+  std::string name = lua_tostring(pL, 2);
 
   //notice the cast to int with this.
   int    age = (int)lua_tonumber(pL, 1);
 
-  cout << "\n\n[C++]: name = " << name 
-       << "\n[C++]: age  = " << age << endl;
+  std::cout << "\n\n[C++]: name = " << name  << "\n[C++]: age  = " << age << std::endl;
 
 
 
 
 
-  cout << "\n\n[C++]:  2. Retrieving simple table";
+  std::cout << "\n\n[C++]:  2. Retrieving simple table";
 
 
   //put the table on the stack
@@ -63,7 +62,7 @@ int main()
 
   if (!lua_istable(pL, -1))
   {
-    cout << "\n[C++]: ERROR: simple_table is not a valid table";
+	  std::cout << "\n[C++]: ERROR: simple_table is not a valid table";
   }
 
   else
@@ -78,13 +77,13 @@ int main()
     //check that is the correct type
     if (!lua_isstring(pL, -1))
     {
-      cout << "\n[C++]: ERROR: invalid type";
+		std::cout << "\n[C++]: ERROR: invalid type";
     }
 
     //grab the data
     name = lua_tostring(pL, -1);
 
-    cout << "\n\n[C++]: name = " << name;
+	std::cout << "\n\n[C++]: name = " << name;
 
     lua_pop(pL, 1);
 
@@ -94,7 +93,7 @@ int main()
     lua_gettable(pL, -2);
     if (!lua_isnumber(pL, -1))
     {
-      cout << "\n[C++]: ERROR: invalid type";
+		std::cout << "\n[C++]: ERROR: invalid type";
     }
 
     //grab the data
@@ -102,13 +101,13 @@ int main()
 
     lua_pop(pL, 1);
 
-    cout << "\n[C++]: age  = " << age;
+	std::cout << "\n[C++]: age  = " << age;
     
   }
 
  
 
-   cout << "\n\n[C++]: 3. Calling a simple Lua function: add(a,b)";
+  std::cout << "\n\n[C++]: 3. Calling a simple Lua function: add(a,b)";
 
    //get the function from the global table and push it on the stack
    lua_getglobal(pL, "add");
@@ -116,7 +115,7 @@ int main()
    //check that it is there
    if (!lua_isfunction(pL, -1))
    {
-     cout << "\n\n[C++]: Oops! The lua function 'add' has not been defined";
+	   std::cout << "\n\n[C++]: Oops! The lua function 'add' has not been defined";
    }
 
    //push some variables onto the lua stack
@@ -133,7 +132,7 @@ int main()
 
    lua_pop(pL, 1);
 
-   cout << "\n\n[C++]: <lua>add(5,8) = " << result;
+   std::cout << "\n\n[C++]: <lua>add(5,8) = " << result;
 
 
 
@@ -141,7 +140,10 @@ int main()
   //tidy up
   lua_close(pL);
 
-  cout << "\n\n\n";
+  std::cout << "\n\n\n";
+
+  //wait for a keypress before exiting
+  PressAnyKeyToContinue();
     
   return 0;
 }
