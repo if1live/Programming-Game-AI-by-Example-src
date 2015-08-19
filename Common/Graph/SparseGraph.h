@@ -199,7 +199,10 @@ public:
 
         EdgeType*  next()
         {
-          ++curEdge;
+			++curEdge;
+
+			if (end())
+				return NULL;
     
           return &(*curEdge);
 
@@ -248,15 +251,16 @@ public:
         const EdgeType*  next()
         {
           ++curEdge;
-    
-          return &(*curEdge);
 
+		  if (end())
+			  return NULL;    
+          return &(*curEdge);
         }
 
         //return true if we are at the end of the edge list
         bool end()
         {
-          return (curEdge == G.m_Edges[NodeIndex].end());
+		  return (curEdge == G.m_Edges[NodeIndex].end());
         }
       };
 
@@ -306,7 +310,10 @@ public:
 
       node_type* next()
       {
-        ++curNode;
+		  ++curNode;
+
+		  if (end())
+			  return NULL;
 
         GetNextValidNode(curNode);
 
@@ -367,6 +374,9 @@ public:
       const node_type* next()
       {
         ++curNode;
+
+		if (end())
+			return NULL;
 
         GetNextValidNode(curNode);
 
