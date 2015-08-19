@@ -9,7 +9,7 @@
 //  Desc:   class templates defining a heuristic policy for use with the A*
 //          search algorithm
 //-----------------------------------------------------------------------------
-#include "misc/utils.h"
+#include "misc\utils.h"
 
 //-----------------------------------------------------------------------------
 //the euclidian heuristic (straight-line distance)
