@@ -12,6 +12,8 @@
 
 #include <iostream>
 
+#include "misc\ConsoleUtils.h"
+
 int main()
 {
   //create a lua state
@@ -27,12 +29,15 @@ int main()
   if (int error = lua_dofile(pL, "your_first_lua_script.lua") != 0)
   {
     std::cout << "\n[C++]: ERROR(" << error << "): Problem with lua script file!\n\n" << std::endl;
-
-    return 0;
+  }
+  else
+  {
+	  //tidy up
+	  lua_close(pL);
   }
 
-  //tidy up
-  lua_close(pL);
+  //wait for a keypress before exiting
+  PressAnyKeyToContinue();
 
   return 0;
 }
