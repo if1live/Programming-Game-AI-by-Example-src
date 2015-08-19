@@ -39,6 +39,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExposingCPPClassesUsingLuab
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExposingCPPFunctionsUsingLuabind", "Buckland_Chapter6_Scripting_Source\ExposingCPPFunctionsUsingLuabind\ExposingCPPFunctionsUsingLuabind.vcxproj", "{C591A0AB-71B5-4591-91B4-1567C85D93A4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ScriptedStateMachine", "Buckland_Chapter6_Scripting_Source\ScriptedStateMachine\ScriptedStateMachine.vcxproj", "{DAAD892B-C6C0-4428-AFDF-3BFD4F81CBB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -118,6 +120,12 @@ Global
 		{C591A0AB-71B5-4591-91B4-1567C85D93A4}.Release|Win32.Build.0 = Release|Win32
 		{C591A0AB-71B5-4591-91B4-1567C85D93A4}.Template|Win32.ActiveCfg = Release|Win32
 		{C591A0AB-71B5-4591-91B4-1567C85D93A4}.Template|Win32.Build.0 = Release|Win32
+		{DAAD892B-C6C0-4428-AFDF-3BFD4F81CBB4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DAAD892B-C6C0-4428-AFDF-3BFD4F81CBB4}.Debug|Win32.Build.0 = Debug|Win32
+		{DAAD892B-C6C0-4428-AFDF-3BFD4F81CBB4}.Release|Win32.ActiveCfg = Release|Win32
+		{DAAD892B-C6C0-4428-AFDF-3BFD4F81CBB4}.Release|Win32.Build.0 = Release|Win32
+		{DAAD892B-C6C0-4428-AFDF-3BFD4F81CBB4}.Template|Win32.ActiveCfg = Release|Win32
+		{DAAD892B-C6C0-4428-AFDF-3BFD4F81CBB4}.Template|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -135,6 +143,7 @@ Global
 		{DFC3F004-08A2-42F5-BBDE-D81A96ABC31C} = {3E9C09CB-226E-4553-BA67-36D4A61CD023}
 		{4A021179-8DCD-4AF8-9958-0F29A510CF5F} = {3E9C09CB-226E-4553-BA67-36D4A61CD023}
 		{C591A0AB-71B5-4591-91B4-1567C85D93A4} = {3E9C09CB-226E-4553-BA67-36D4A61CD023}
+		{DAAD892B-C6C0-4428-AFDF-3BFD4F81CBB4} = {3E9C09CB-226E-4553-BA67-36D4A61CD023}
 	EndGlobalSection
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = Test_Project.vsmdi
