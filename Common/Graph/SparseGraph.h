@@ -400,7 +400,7 @@ public:
 template <class node_type, class edge_type>
 bool SparseGraph<node_type, edge_type>::isNodePresent(int nd)const
 {
-    if ( (m_Nodes[nd].Index() == invalid_node_index) || (nd >= m_Nodes.size()))
+	if ((nd >= m_Nodes.size()) || (m_Nodes[nd].Index() == invalid_node_index))
     {
       return false;
     }

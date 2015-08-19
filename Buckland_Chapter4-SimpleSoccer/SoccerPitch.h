@@ -95,7 +95,7 @@ public:
 
   const Region* const GetRegionFromIndex(int idx)                                
   {
-    assert ( (idx > 0) && (idx < m_Regions.size()) );
+    assert ( (idx >= 0) && (idx < m_Regions.size()) );
 
     return m_Regions[idx];
   }
