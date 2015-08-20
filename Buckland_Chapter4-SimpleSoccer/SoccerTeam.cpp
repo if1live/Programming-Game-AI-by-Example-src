@@ -4,16 +4,16 @@
 #include "PlayerBase.h"
 #include "GoalKeeper.h"
 #include "FieldPlayer.h"
-#include "misc\utils.h"
+#include "misc/utils.h"
 #include "SteeringBehaviors.h"
 #include "GoalKeeperStates.h"
 #include "ParamLoader.h"
-#include "2D\geometry.h"
-#include "Game\EntityManager.h"
-#include "Messaging\MessageDispatcher.h"
+#include "2d/geometry.h"
+#include "game/EntityManager.h"
+#include "messaging/MessageDispatcher.h"
 #include "SoccerMessages.h"
 #include "TeamStates.h"
-#include "Debug\DebugConsole.h"
+#include "debug/DebugConsole.h"
 #include <windows.h>
 
 using std::vector;

@@ -16,7 +16,7 @@
 #include "misc/utils.h"
 #include "../lua/Raven_Scriptor.h"
 #include "../Raven_Bot.h"
-#include "Fuzzy/FuzzyModule.h"
+#include "fuzzy/FuzzyModule.h"
 
 
 

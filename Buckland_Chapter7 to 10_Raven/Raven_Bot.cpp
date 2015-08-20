@@ -12,15 +12,15 @@
 #include "Raven_WeaponSystem.h"
 #include "Raven_SensoryMemory.h"
 
-#include "Messaging/Telegram.h"
+#include "messaging/Telegram.h"
 #include "Raven_Messages.h"
-#include "Messaging/MessageDispatcher.h"
+#include "messaging/MessageDispatcher.h"
 
 #include "goals/Raven_Goal_Types.h"
 #include "goals/Goal_Think.h"
 
 
-#include "Debug/DebugConsole.h"
+#include "debug/DebugConsole.h"
 
 //-------------------------- ctor ---------------------------------------------
 Raven_Bot::Raven_Bot(Raven_Game* world,Vector2D pos):

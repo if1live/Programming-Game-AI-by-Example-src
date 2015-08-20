@@ -21,7 +21,7 @@
 
 #include "graph/SparseGraph.h"
 #include "misc/PriorityQueue.h"
-#include "Graph/AStarHeuristicPolicies.h"
+#include "graph/AStarHeuristicPolicies.h"
 #include "SearchTerminationPolicies.h"
 #include "PathEdge.h"
 

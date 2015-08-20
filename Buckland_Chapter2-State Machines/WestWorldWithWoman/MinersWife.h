@@ -3,14 +3,14 @@
 
 #include <string>
 
-#include "fsm\State.h"
+#include "fsm/State.h"
 #include "BaseGameEntity.h"
 #include "Locations.h"
 #include "MinersWifeOwnedStates.h"
-#include "misc\ConsoleUtils.h"
+#include "misc/ConsoleUtils.h"
 #include "Miner.h"
-#include "fsm\StateMachine.h"
-#include "misc\Utils.h"
+#include "fsm/StateMachine.h"
+#include "misc/Utils.h"
 
 
 

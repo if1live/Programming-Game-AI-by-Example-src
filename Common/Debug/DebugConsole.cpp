@@ -1,4 +1,4 @@
-#include "Debug\DebugConsole.h"
+#include "debug/DebugConsole.h"
 #include <iterator>
 #pragma warning (disable : 4786)
 

@@ -10,7 +10,7 @@
 //  Desc:   Causes a bot to search for its current target. Exits when target
 //          is in view
 //-----------------------------------------------------------------------------
-#include "Goals/Goal_Composite.h"
+#include "goals/Goal_Composite.h"
 #include "Raven_Goal_Types.h"
 #include "../Raven_Bot.h"
 

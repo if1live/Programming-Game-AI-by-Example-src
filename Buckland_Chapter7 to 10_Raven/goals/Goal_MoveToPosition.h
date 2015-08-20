@@ -2,7 +2,7 @@
 #define GOAL_MOVE_POS_H
 #pragma warning (disable:4786)
 
-#include "Goals/Goal_Composite.h"
+#include "goals/Goal_Composite.h"
 #include "2D/Vector2D.h"
 #include "../Raven_Bot.h"
 #include "Raven_Goal_Types.h"

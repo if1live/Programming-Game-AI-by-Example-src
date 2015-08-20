@@ -11,8 +11,8 @@
 //-----------------------------------------------------------------------------
 #include <list>
 #include "TimeSlicedGraphAlgorithms.h"
-#include "Graph/GraphAlgorithms.h"
-#include "Graph/SparseGraph.h"
+#include "graph/GraphAlgorithms.h"
+#include "graph/SparseGraph.h"
 #include "PathEdge.h"
 #include "../Raven_Map.h"
 

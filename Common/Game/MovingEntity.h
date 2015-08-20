@@ -14,8 +14,8 @@
 
 #include <cassert>
 
-#include "2D\Vector2D.h"
-#include "Game\BaseGameEntity.h"
+#include "2d/Vector2D.h"
+#include "game/BaseGameEntity.h"
 
 
 

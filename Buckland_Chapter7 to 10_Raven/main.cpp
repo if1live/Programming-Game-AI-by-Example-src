@@ -3,7 +3,7 @@
 #include <time.h>
 #include "constants.h"
 #include "misc/utils.h"
-#include "Time/PrecisionTimer.h"
+#include "time/PrecisionTimer.h"
 #include "Resource.h"
 #include "misc/windowutils.h"
 #include "misc/Cgdi.h"

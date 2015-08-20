@@ -3,7 +3,7 @@
 #include <iostream>
 #include <cassert>
 
-#include "Fuzzy/FuzzyModule.h"
+#include "fuzzy/FuzzyModule.h"
 
 //------------------------------ dtor -----------------------------------------
 FuzzyModule::~FuzzyModule()

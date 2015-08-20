@@ -19,12 +19,12 @@
 #include <list>
 
 
-#include "2D\Vector2d.h"
-#include "Graph\SparseGraph.h"
-#include "Graph\GraphAlgorithms.h"
-#include "misc\utils.h"
-#include "graph\GraphEdgeTypes.h"
-#include "graph\GraphNodeTypes.h"
+#include "2d/Vector2d.h"
+#include "graph/SparseGraph.h"
+#include "graph/GraphAlgorithms.h"
+#include "misc/utils.h"
+#include "graph/GraphEdgeTypes.h"
+#include "graph/GraphNodeTypes.h"
 
 
 

@@ -1,9 +1,9 @@
 #include "Trigger_SoundNotify.h"
-#include "Triggers/TriggerRegion.h"
+#include "triggers/TriggerRegion.h"
 #include "../Raven_Game.h"
 #include "../lua/Raven_Scriptor.h"
 #include "../constants.h"
-#include "Messaging/MessageDispatcher.h"
+#include "messaging/MessageDispatcher.h"
 #include "../Raven_Messages.h"
 
 #include "misc/cgdi.h"

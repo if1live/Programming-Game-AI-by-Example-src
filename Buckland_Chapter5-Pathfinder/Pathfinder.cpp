@@ -1,10 +1,10 @@
 #include "Pathfinder.h"
-#include "Graph\HandyGraphFunctions.h"
-#include "misc\Cgdi.h"
-#include "Time\PrecisionTimer.h"
+#include "graph/HandyGraphFunctions.h"
+#include "misc/Cgdi.h"
+#include "time/PrecisionTimer.h"
 #include "constants.h"
-#include "graph\AStarHeuristicPolicies.h"
-#include "misc\Stream_Utility_Functions.h"
+#include "graph/AStarHeuristicPolicies.h"
+#include "misc/Stream_Utility_Functions.h"
 
 
 #include <iostream>

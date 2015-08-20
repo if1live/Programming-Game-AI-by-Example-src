@@ -9,7 +9,7 @@
 //
 //  Desc:   Causes a bot to wander until terminated
 //-----------------------------------------------------------------------------
-#include "Goals/Goal.h"
+#include "goals/Goal.h"
 #include "Raven_Goal_Types.h"
 #include "../Raven_Bot.h"
 

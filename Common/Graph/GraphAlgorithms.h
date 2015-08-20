@@ -21,8 +21,8 @@
 #include <queue>
 #include <stack>
 
-#include "graph\SparseGraph.h"
-#include "misc\PriorityQueue.h"
+#include "graph/SparseGraph.h"
+#include "misc/PriorityQueue.h"
 
 
 //----------------------------- Graph_SearchDFS -------------------------------

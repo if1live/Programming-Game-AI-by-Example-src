@@ -14,11 +14,11 @@
 //-----------------------------------------------------------------------------
 #include <iostream>
 
-#include "misc\Cgdi.h"
-#include "misc\utils.h"
-#include "misc\Stream_Utility_Functions.h"
-#include "Graph\GraphAlgorithms.h"
-#include "Graph\AStarHeuristicPolicies.h"
+#include "misc/Cgdi.h"
+#include "misc/utils.h"
+#include "misc/Stream_Utility_Functions.h"
+#include "graph/GraphAlgorithms.h"
+#include "graph/AStarHeuristicPolicies.h"
 
 
 

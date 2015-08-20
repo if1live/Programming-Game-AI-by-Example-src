@@ -13,7 +13,7 @@
 //          
 //-----------------------------------------------------------------------------
 #include <vector>
-#include "Fuzzy/FuzzySet.h"
+#include "fuzzy/FuzzySet.h"
 #include "fuzzy/FuzzyOperators.h"
 #include "misc/utils.h"
 

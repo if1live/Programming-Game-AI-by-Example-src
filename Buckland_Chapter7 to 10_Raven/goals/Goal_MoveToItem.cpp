@@ -1,7 +1,7 @@
 #include "Goal_MoveToItem.h"
 
-#include "..\Raven_Bot.h"
-#include "..\Raven_NavModule.h"
+#include "../Raven_Bot.h"
+#include "../Raven_NavModule.h"
 
 #include "Raven_GoalQ.h"
 

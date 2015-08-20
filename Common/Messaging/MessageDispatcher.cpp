@@ -1,8 +1,8 @@
 #include "MessageDispatcher.h"
-#include "Game\BaseGameEntity.h"
-#include "misc\FrameCounter.h"
-#include "game\EntityManager.h"
-#include "Debug\DebugConsole.h"
+#include "game/BaseGameEntity.h"
+#include "misc/FrameCounter.h"
+#include "game/EntityManager.h"
+#include "debug/DebugConsole.h"
 
 using std::set;
 

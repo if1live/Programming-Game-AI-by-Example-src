@@ -15,9 +15,9 @@
 #include <windows.h>
 #include <vector>
 
-#include "2d\Vector2D.h"
-#include "time\PrecisionTimer.h"
-#include "misc\CellSpacePartition.h"
+#include "2d/Vector2D.h"
+#include "time/PrecisionTimer.h"
+#include "misc/CellSpacePartition.h"
 #include "BaseGameEntity.h"
 #include "EntityFunctionTemplates.h"
 #include "vehicle.h"

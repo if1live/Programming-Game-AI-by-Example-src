@@ -2,7 +2,7 @@
 #define GOAL_GET_ITEM_H
 #pragma warning (disable:4786)
 
-#include "Goals/Goal_Composite.h"
+#include "goals/Goal_Composite.h"
 #include "Raven_Goal_Types.h"
 #include "../Raven_Bot.h"
 #include "triggers/trigger.h"

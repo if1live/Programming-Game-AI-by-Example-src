@@ -13,10 +13,10 @@
 
 #include <math.h>
 
-#include "2D\Vector2D.h"
-#include "misc\Cgdi.h"
-#include "misc\utils.h"
-#include "misc\Stream_Utility_Functions.h"
+#include "2d/Vector2D.h"
+#include "misc/Cgdi.h"
+#include "misc/utils.h"
+#include "misc/Stream_Utility_Functions.h"
 
 
 class Region

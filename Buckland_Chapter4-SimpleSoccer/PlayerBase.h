@@ -17,9 +17,9 @@
 #include <vector>
 #include <string>
 #include <cassert>
-#include "misc\autolist.h"
-#include "2D\Vector2D.h"
-#include "Game\MovingEntity.h"
+#include "misc/autolist.h"
+#include "2d/Vector2D.h"
+#include "game/MovingEntity.h"
 
 class SoccerTeam;
 class SoccerPitch;

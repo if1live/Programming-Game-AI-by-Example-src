@@ -3,8 +3,8 @@
 #include "../navigation/Raven_PathPlanner.h"
 #include "../Raven_Game.h"
 #include "../Raven_Map.h"
-#include "Messaging/Telegram.h"
-#include "..\Raven_Messages.h"
+#include "messaging/Telegram.h"
+#include "../Raven_Messages.h"
 
 #include "Goal_SeekToPosition.h"
 #include "Goal_FollowPath.h"

@@ -1,18 +1,17 @@
 #include "FieldPlayerStates.h"
-#include "Debug\DebugConsole.h"
+#include "debug/DebugConsole.h"
 #include "SoccerPitch.h"
 #include "FieldPlayer.h"
 #include "SteeringBehaviors.h"
 #include "SoccerTeam.h"
 #include "Goal.h"
-#include "2D\geometry.h"
+#include "2d/geometry.h"
 #include "SoccerBall.h"
 #include "ParamLoader.h"
-#include "Messaging\Telegram.h"
-#include "Messaging\MessageDispatcher.h"
+#include "messaging/Telegram.h"
+#include "messaging/MessageDispatcher.h"
 #include "SoccerMessages.h"
-
-#include "time\Regulator.h"
+#include "time/Regulator.h"
 
 
 //uncomment below to send state info to the debug window

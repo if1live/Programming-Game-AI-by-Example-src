@@ -1,6 +1,6 @@
 #include "Goal_NegotiateDoor.h"
-#include "..\Raven_Bot.h"
-#include "..\Raven_Game.h"
+#include "../Raven_Bot.h"
+#include "../Raven_Game.h"
 #include "../navigation/Raven_PathPlanner.h"
 
 

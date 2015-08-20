@@ -1,7 +1,7 @@
 #include "Raven_Map.h"
 #include "Raven_ObjectEnumerations.h"
 #include "misc/Cgdi.h"
-#include "Graph/HandyGraphFunctions.h"
+#include "graph/HandyGraphFunctions.h"
 #include "Raven_Door.h"
 #include "game/EntityManager.h"
 #include "constants.h"

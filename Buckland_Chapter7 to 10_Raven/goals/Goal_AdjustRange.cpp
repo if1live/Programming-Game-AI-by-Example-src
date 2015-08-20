@@ -1,6 +1,6 @@
 #include "Goal_AdjustRange.h"
-#include "..\Raven_Bot.h"
-#include "..\Raven_SteeringBehaviors.h"
+#include "../Raven_Bot.h"
+#include "../Raven_SteeringBehaviors.h"
 #include "../armory/Raven_Weapon.h"
 
 

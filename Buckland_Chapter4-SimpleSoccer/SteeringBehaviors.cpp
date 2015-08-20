@@ -1,9 +1,9 @@
 #include "SteeringBehaviors.h"
 #include "PlayerBase.h"
-#include "2D\Transformations.h"
-#include "misc\utils.h"
+#include "2d/Transformations.h"
+#include "misc/utils.h"
 #include "SoccerTeam.h"
-#include "misc\autolist.h"
+#include "misc/autolist.h"
 #include "ParamLoader.h"
 #include "SoccerBall.h"
 

@@ -17,9 +17,9 @@
 
 #include <vector>
 
-#include "Game\Region.h"
+#include "game/Region.h"
 #include "SupportSpotCalculator.h"
-#include "FSM\StateMachine.h"
+#include "fsm/StateMachine.h"
 
 class Goal;
 class PlayerBase;

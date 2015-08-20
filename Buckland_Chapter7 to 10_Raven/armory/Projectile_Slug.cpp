@@ -8,7 +8,7 @@
 #include "../Raven_Map.h"
 
 #include "../Raven_Messages.h"
-#include "Messaging/MessageDispatcher.h"
+#include "messaging/MessageDispatcher.h"
 
 #include <list>
 

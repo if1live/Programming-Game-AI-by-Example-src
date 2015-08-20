@@ -20,8 +20,8 @@
 #include "2d/Wall2D.h"
 #include "triggers/Trigger.h"
 #include "Raven_Bot.h"
-#include "Graph/GraphEdgeTypes.h"
-#include "Graph/GraphNodeTypes.h"
+#include "graph/GraphEdgeTypes.h"
+#include "graph/GraphNodeTypes.h"
 #include "misc/CellSpacePartition.h"
 #include "triggers/TriggerSystem.h"
 

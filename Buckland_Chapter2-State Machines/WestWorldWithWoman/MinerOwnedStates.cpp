@@ -1,5 +1,5 @@
 #include "MinerOwnedStates.h"
-#include "fsm\State.h"
+#include "fsm/State.h"
 #include "Miner.h"
 #include "Locations.h"
 #include "EntityNames.h"

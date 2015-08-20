@@ -11,11 +11,11 @@
 #include "../lua/Raven_Scriptor.h"
 #include "misc/CellSpacePartition.h"
 #include "../Raven_Messages.h"
-#include "Messaging/MessageDispatcher.h"
+#include "messaging/MessageDispatcher.h"
 #include "graph/NodeTypeEnumerations.h"
 
 
-#include "Debug/DebugConsole.h"
+#include "debug/DebugConsole.h"
 //#define SHOW_NAVINFO
 #include <cassert>
 

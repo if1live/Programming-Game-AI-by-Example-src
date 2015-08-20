@@ -15,7 +15,7 @@
 #include "BaseGameEntity.h"
 #include "Locations.h"
 #include "MinerOwnedStates.h"
-#include "fsm\StateMachine.h"
+#include "fsm/StateMachine.h"
 
 //class State; // error C2990: 'State' : non-class template has already been declared as a class template
 

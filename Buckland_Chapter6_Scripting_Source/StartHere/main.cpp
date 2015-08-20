@@ -12,7 +12,7 @@
 
 #include <iostream>
 
-#include "misc\ConsoleUtils.h"
+#include "misc/ConsoleUtils.h"
 
 int main()
 {

@@ -8,12 +8,12 @@
 #pragma comment(lib, "comctl32.lib")
 
 #include "constants.h"
-#include "misc\utils.h"
-#include "Time\PrecisionTimer.h"
+#include "misc/utils.h"
+#include "time/PrecisionTimer.h"
 #include "Pathfinder.h"
 #include "resource.h"
-#include "misc\Cgdi.h"
-#include "misc\WindowUtils.h"
+#include "misc/Cgdi.h"
+#include "misc/WindowUtils.h"
 
 
 //need to define a custom message so that the backbuffer can be resized to 

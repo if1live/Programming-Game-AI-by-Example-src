@@ -1,8 +1,8 @@
 #include "Goal_HuntTarget.h"
 #include "Goal_Explore.h"
 #include "Goal_MoveToPosition.h"
-#include "..\Raven_Bot.h"
-#include "..\Raven_SteeringBehaviors.h"
+#include "../Raven_Bot.h"
+#include "../Raven_SteeringBehaviors.h"
 
 
 
