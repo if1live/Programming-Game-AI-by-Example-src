@@ -89,14 +89,12 @@
     <ClCompile Include="MinersWifeOwnedStates.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Common\2D\SVector2D.h" />
     <ClInclude Include="..\..\Common\FSM\State.h" />
     <ClInclude Include="..\..\Common\FSM\StateMachine.h" />
     <ClInclude Include="..\..\Common\Messaging\Telegram.h" />
     <ClInclude Include="..\..\Common\misc\ConsoleUtils.h" />
     <ClInclude Include="..\..\Common\misc\utils.h" />
     <ClInclude Include="..\..\Common\Time\CrudeTimer.h" />
-    <ClInclude Include="..\..\Common\utils.h" />
     <ClInclude Include="BaseGameEntity.h" />
     <ClInclude Include="EntityManager.h" />
     <ClInclude Include="EntityNames.h" />
