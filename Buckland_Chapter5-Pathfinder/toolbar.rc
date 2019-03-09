@@ -7,7 +7,9 @@
 //
 // Generated from the TEXTINCLUDE 2 resource.
 //
-#include "afxres.h"
+// #include "afxres.h"
+#include <winresrc.h>
+#define IDC_STATIC (-1)
 
 /////////////////////////////////////////////////////////////////////////////
 #undef APSTUDIO_READONLY_SYMBOLS
@@ -133,7 +135,7 @@ BEGIN
             VALUE "FileDescription", "Pathfinder\0"
             VALUE "FileVersion", "1, 0, 0, 1\0"
             VALUE "InternalName", "Pathfinder\0"
-            VALUE "LegalCopyright", "Copyright © 2004\0"
+            VALUE "LegalCopyright", "Copyright ?2004\0"
             VALUE "LegalTrademarks", "\0"
             VALUE "OriginalFilename", "Pathfinder.exe\0"
             VALUE "PrivateBuild", "\0"
